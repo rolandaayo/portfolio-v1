@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
     <div className="min-h-screen bg-slate-500 flex items-center justify-center">
       <div className="text-center p-8">
