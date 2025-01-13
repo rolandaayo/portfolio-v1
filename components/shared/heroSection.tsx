@@ -9,7 +9,7 @@ function HeroSection() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-                OJUKWU <span className="text-yellow-400">SOMKENE</span> IFECHUKWU
+                Roland <span className="text-yellow-400">Ibiwoye</span> Ayotomiwa
               </h1>
               <p className="mt-6 text-lg  font-light leading-8 ">
                 I am a <span className="text-gray-500 font-bold">Full-Stack developer</span>  based in <span className="font-extrabold text-gray-500">Nigeria</span>, passionate about creating web applications that are both functional and visually appealing. <span className="font-semibold text-gray-500">"Coding is not just a job for me, it’s a hobby that I deeply enjoy."</span>
