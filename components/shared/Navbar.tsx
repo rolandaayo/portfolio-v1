@@ -15,9 +15,9 @@ const Navbar = () => {
                 <nav aria-label="Global" className="bg-black flex items-center justify-between p-5 xl:px-36">
                     <div className="flex lg:flex-1">
                         {/* Company logo */}
-                        <Link href="/" className="-m-1.5 p-1.5">
+                        {/* <Link href="/" className="-m-1.5 p-1.5">
                             <h1 className='font-extrabold text-xl text-white font-sans'>Roland<span className='text-yellow-400 font-bold'> Ibiwoye</span></h1>
-                        </Link>
+                        </Link> */}
                     </div>
 
                     <div className="flex lg:hidden">
