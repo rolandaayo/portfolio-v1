@@ -12,11 +12,11 @@ const Navbar = () => {
     return (
         <div>
             <header className='fixed inset-x-0 top-0 z-50'>
-                <nav aria-label="Global" className="bg-white flex items-center justify-between p-5 xl:px-36">
+                <nav aria-label="Global" className="bg-black flex items-center justify-between p-5 xl:px-36">
                     <div className="flex lg:flex-1">
                         {/* Company logo */}
                         <Link href="/" className="-m-1.5 p-1.5">
-                            <h1 className='font-extrabold text-xl text-black font-sans'>Roland<span className='text-yellow-400 font-bold'> Ibiwoye</span></h1>
+                            <h1 className='font-extrabold text-xl text-white font-sans'>Roland<span className='text-yellow-400 font-bold'> Ibiwoye</span></h1>
                         </Link>
                     </div>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
                             {/* Company logo in mobile menu */}
                             <Link href="/" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <h1 className='font-extrabold text-slate-950'>Ojukwu<span className='font-extrabold text-yellow-400'> Somkene</span></h1>
+                                <h1 className='font-extrabold text-slate-950'>Roland<span className='font-extrabold text-yellow-400'> Ibiwoye</span></h1>
                             </Link>
 
                             {/* Button to close mobile menu */}

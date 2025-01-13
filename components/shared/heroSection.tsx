@@ -3,7 +3,7 @@ import SlideIn from "./SlideIn"
 function HeroSection() {
   return (
     <SlideIn direction="top">
-      <div className="xl:px-36 sm:px-32">
+      <div className="xl:px-36 bg-black text-white sm:px-32">
         <div className="relative isolate px-6 pt-14 lg:px-8">
 
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
