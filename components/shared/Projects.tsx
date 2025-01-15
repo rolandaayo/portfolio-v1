@@ -9,12 +9,12 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons"
 export const Projects = () => {
     return (
         <SlideIn direction="left">
-            <div className="font-sans">
+            <div className="font-sans bg-black">
                 <div className="text-center mb-7 mx-4">
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Featured <span className="text-yellow-400">Projects</span>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                        Selected <span className="text-pink-200">Projects</span>
                     </p>
-                    <p className="mt-3  font-light text-gray-500">
+                    <p className="mt-3  font-light text-white">
                         Check out my selected projects to see my work in action.
                     </p>
                 </div>

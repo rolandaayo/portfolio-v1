@@ -8,16 +8,16 @@ export function FloatingDockDemo() {
         {
             title: "Linkedin",
             icon: (
-                <LinkedInLogoIcon className="h-full w-full text-blue-800 dark:text-neutral-300" />
+                <LinkedInLogoIcon className="h-full w-full text-[#38BDF9] dark:text-neutral-300" />
             ),
-            href: "https://www.linkedin.com/in/somkene-ojukwu/",
+            href: "https://www.linkedin.com/in/roland-ibiwoye/",
         },
         {
             title: "Twitter",
             icon: (
                 <TwitterLogoIcon className="h-full w-full text-neutral-800 dark:text-neutral-300" />
             ),
-            href: "https://x.com/somkeneOj",
+            href: "https://x.com/theayotomiwa",
         },
         {
             title: "GitHub",
@@ -38,3 +38,7 @@ export function FloatingDockDemo() {
         </div>
     );
 }
+
+
+
+

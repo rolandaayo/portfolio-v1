@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ojukwu Somkene",
-  description: "Ojukwu Somkene's portfolio",
+  title: "Roland Ibiwoye - Porfolio",
+  description: "Roland Ibiwoye's portfolio",
 };
 
 export default function RootLayout({
