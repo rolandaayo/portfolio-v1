@@ -8,7 +8,7 @@ import About from "@/components/shared/About";
 export default function Home() {
 
   return (
-    <main className="bg-black">
+    <main className="bg-black text-white">
       <Navbar />
       <HeroSection />
       <Projects />
