@@ -24,7 +24,7 @@ export function FloatingDockDemo() {
             icon: (
                 <GitHubLogoIcon className="h-full w-full text-purple-950 dark:text-neutral-300" />
             ),
-            href: "https://github.com/somkenemuscle",
+            href: "https://github.com/rolandaayo",
         },
 
     ];

@@ -38,11 +38,11 @@ const About = () => {
 
     return (
         <SlideIn direction='bottom'>
-            <section className="px-8 md:px-16 lg:px-32 mb-24">
+            <section className="px-8 md:px-16 text-white lg:px-32 mb-24">
                 <div className="container mx-auto flex flex-col items-center md:flex-row">
                     {/* Description */}
                     <div className="text-center md:text-left">
-                        <h2 className="text-3xl text-center font-semibold mb-4 text-gray-800">About <span className="text-yellow-400">Me</span> </h2>
+                        <h2 className="text-3xl text-center font-semibold mb-4 text-white">About <span className="text-yellow-400">Me</span> </h2>
                         <p className="font-light">
                             With over 4 years of experience as a <span className="font-semibold">Full-stack developer</span> , I have had a deep passion for creating and building things. My journey into
                             software engineering was driven by my love for creation, which began with drawing and making music. This creative inclination naturally
@@ -64,12 +64,12 @@ const About = () => {
                         </p>
 
                         {/* Experience */}
-                        <div className="mt-24">
-                            <h3 className="text-xl font-semibold mb-4 text-gray-800">Work Experience</h3>
-                            <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-600">
+                        <div className="mt-24 text-white">
+                            <h3 className="text-xl font-semibold mb-4 text-white">Work Experience</h3>
+                            <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
                                 <li>
                                     <h4 className="text-xl font-bold">Founder & Full-Stack Developer, Appvarsity</h4>
-                                    <span className="text-sm text-gray-500">Jan 2024 - Present</span>
+                                    <span className="text-sm text-white">Jan 2024 - Present</span>
                                     <p className="mt-2 text-md font-light">
                                         I Founded and led the development of Appvarsity, A platform designed to support Aptech students. I am responsible for overseeing both front-end and back-end development, managing the team, and ensuring we give valuable tools and essential resources to enhance students educational needs.
                                         <span className="block mt-2 font-semibold">Technologies Used <span aria-hidden="true">→</span></span>
@@ -98,7 +98,7 @@ const About = () => {
                                 </li>
                                 <li>
                                     <h4 className="text-xl font-bold">Frontend Developer Intern, Mindera</h4>
-                                    <span className="text-sm text-gray-500">Jan 2023 - Jul 2023</span>
+                                    <span className="text-sm text-white">Jan 2023 - Jul 2023</span>
                                     <p className="mt-2 text-md font-light">
                                         I Focused on creating responsive user interfaces with a strong emphasis on performance and accessibility. I Leveraged agile methodologies to enhance teamwork and foster effective communication, contributing to a more cohesive and productive development process.
                                         <span className="block mt-2 font-semibold">Technologies Used <span aria-hidden="true">→</span></span>
@@ -119,7 +119,8 @@ const About = () => {
                                                     className="flex flex-col items-center justify-center p-3 rounded-md transition-transform transform  focus:outline-none"
                                                 >
                                                     <span className="text-lg">{tech.logo}</span>
-                                                    <span className="mt-1 text-xs text-gray-700">{tech.name}</span>
+                                                    <span className="mt-1 text-xs text-white
+                                                    ">{tech.name}</span>
                                                 </button>
                                             </motion.div>
                                         ))}

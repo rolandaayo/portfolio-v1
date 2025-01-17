@@ -41,7 +41,8 @@ function Skills() {
   return (
     <div id="skills" className="py-12 px-24 my-12 mt-10 mb-36">
       <SlideIn direction="bottom">
-        <p className="text-center font-light mb-14 text-gray-900">
+
+        <p className="text-center font-light mb-14 text-white">
           These are the technologies i specialize in, drawn from my experience as a Frontend and Backend developer <span aria-hidden="true">→</span>
         </p>
       </SlideIn>
@@ -57,7 +58,8 @@ function Skills() {
             transition={{ duration: 0.5, delay: index * 0.1 }} // Duration and delay for a staggered effect
           >
             {skill.logo}
-            <span className="mt-2 text-sm font-light">{skill.name}</span>
+
+            <span className="mt-2 text-sm font-light text-white">{skill.name}</span>
           </motion.div>
         ))}
       </div>
