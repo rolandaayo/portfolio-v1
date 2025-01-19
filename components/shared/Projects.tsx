@@ -34,7 +34,7 @@ export const Projects = () => {
                             {/* Text Section */}
                             <div className="p-6 flex flex-col justify-between order-2 lg:order-1">
                                 <div>
-                                    <h2 className="text-xl font-bold mb-4">{project.title}</h2>
+                                    <h2 className="text-xl text-black font-bold mb-4">{project.title}</h2>
                                     <p className="text-gray-700 mb-4 font-light">{project.description}</p>
                                     <div className="flex gap-2 mb-4">
                                         {/* <Link href={project.caseStudy} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">
