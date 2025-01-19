@@ -69,9 +69,9 @@ const About = () => {
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
                                 <li>
                                     <h4 className="text-xl font-bold">Full-Stack Developer, Leaders Network</h4>
-                                    <span className="text-sm text-white">Jan 2024 - Present</span>
+                                    <span className="text-sm text-white">Oct 2024 - Present</span>
                                     <p className="mt-2 text-md font-light">
-                                        I Founded and led the development of Appvarsity, A platform designed to support Aptech students. I am responsible for overseeing both front-end and back-end development, managing the team, and ensuring we give valuable tools and essential resources to enhance students educational needs.
+                                    Revamped the company's website www.eleadersnetwork using Next.js & TailwindCSS, enhancing user engagement and contributing to a 15% increase in web traffic, ensuring cross-browser compatibility and optimal performance by writing clean, efficient, and modular code. ensure alignment with project goals and timelines. Effectively collaborating with UI/UX designers and backend developers to design and implement interactive, responsive, and visually appealing user interfaces for the company’s web applications.
                                         <span className="block mt-2 font-semibold">Technologies Used <span aria-hidden="true">→</span></span>
                                     </p>
                                     <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
@@ -98,9 +98,9 @@ const About = () => {
                                 </li>
                                 <li>
                                     <h4 className="text-xl font-bold">Frontend Developer, NIIT</h4>
-                                    <span className="text-sm text-white">Jan 2023 - Jul 2023</span>
+                                    <span className="text-sm text-white">Jan 2022 - Jul 2023</span>
                                     <p className="mt-2 text-md font-light">
-                                        I Focused on creating responsive user interfaces with a strong emphasis on performance and accessibility. I Leveraged agile methodologies to enhance teamwork and foster effective communication, contributing to a more cohesive and productive development process.
+                                    Demonstrated proficiency in designing well-structured Frontend web applications, including the creation of a personal website - rolandayo.vercel.app, showcasing ability to effectively integrate front-end components for a cohesive user experience. Collaborated with a team of developers to design and implement modern and responsive web applications, using tools like React JS, TailwindCSS & Javascript. Investing in continuous self-development through online web development classes on Udemy, Scrimba and Cousera.
                                         <span className="block mt-2 font-semibold">Technologies Used <span aria-hidden="true">→</span></span>
                                     </p>
                                     <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
