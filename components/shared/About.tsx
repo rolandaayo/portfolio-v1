@@ -68,7 +68,7 @@ const About = () => {
                             <h3 className="text-xl font-semibold mb-4 text-white">Work Experience</h3>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
                                 <li>
-                                    <h4 className="text-xl font-bold">Founder & Full-Stack Developer, Appvarsity</h4>
+                                    <h4 className="text-xl font-bold">Full-Stack Developer, Leaders Network</h4>
                                     <span className="text-sm text-white">Jan 2024 - Present</span>
                                     <p className="mt-2 text-md font-light">
                                         I Founded and led the development of Appvarsity, A platform designed to support Aptech students. I am responsible for overseeing both front-end and back-end development, managing the team, and ensuring we give valuable tools and essential resources to enhance students educational needs.
@@ -97,7 +97,7 @@ const About = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <h4 className="text-xl font-bold">Frontend Developer Intern, Mindera</h4>
+                                    <h4 className="text-xl font-bold">Frontend Developer, NIIT</h4>
                                     <span className="text-sm text-white">Jan 2023 - Jul 2023</span>
                                     <p className="mt-2 text-md font-light">
                                         I Focused on creating responsive user interfaces with a strong emphasis on performance and accessibility. I Leveraged agile methodologies to enhance teamwork and foster effective communication, contributing to a more cohesive and productive development process.
