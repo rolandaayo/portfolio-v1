@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="xl:px-36 bg-black sm:start text-white sm:px-32">
         <div className="relative isolate px-6 lg:px-8">
 
-          <div className="mx-auto max-w-2xl py-32 sm:py-48">
+          <div className="mx-auto max-w-2xl lg:py-36 py-28 sm:py-48">
             <div className="text-center">
               <Image src="/assets/images/hero.avif" alt="Profile Image" width={96} height={96} className="w-24 h-24 rounded-full mx-auto mb-4" />
               <button className="font-semibold text-sm pb-10 font-sans bg-black text-white px-4 py-2 rounded hover:bg-gray-900 focus:outline-none">
