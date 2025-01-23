@@ -2,7 +2,7 @@ export const projectData = [
     {
         title: "Clothing Store",
         description:
-            "A platform dedicated to bridging the gap in information and resources for Aptech students by providing them with essential tools and support tailored to their needs. ",
+            "A sleek and responsive clothing store built with Next.js and styled with Tailwind CSS. This app offers a seamless shopping experience, allowing users to browse, add items to their cart, and securely checkout using Paystack integration. Designed to highlight functionality and performance, this project showcases expertise in eCommerce development with a modern tech stack. ",
         technologies: ["React","Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://ecommerce-w3b.vercel.app/",
         caseStudy: "#",
@@ -12,7 +12,7 @@ export const projectData = [
     {
         title: "Foodie",
         description:
-            "A fun and interactive social media platform designed for sharing posts and connecting with friends, built specifically for my school or any community and friends to create our very own online hangout space! 😂",
+            "Foodie is a modern and responsive food ordering app built with Next.js and styled with Tailwind CSS. The app allows users to explore a variety of meals, add items to their cart, and securely complete their orders using Paystack integration. Designed for performance and user experience, Foodie demonstrates expertise in building functional eCommerce solutions for the food industry.",
         technologies: ["React","Tailwind", "Next.js", "Typescript", "Express.js", "MongoDb"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
