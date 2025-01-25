@@ -12,7 +12,7 @@ export const projectData = [
     {
         title: "Ai Resume Checker",
         description:
-            "Foodie is a modern and responsive food ordering app built with Next.js and styled with Tailwind CSS. The app allows users to explore a variety of meals, add items to their cart, and securely complete their orders using Paystack integration. Designed for performance and user experience, Foodie demonstrates expertise in building functional eCommerce solutions for the food industry.",
+            "AI Resume Checker is a tool that leverages artificial intelligence to help HR departments efficiently analyze and evaluate resumes. It can automatically assess candidate qualifications, highlight key skills, and provide detailed feedback to streamline recruitment processes. By automating resume evaluation, this solution reduces manual effort, minimizes human bias, and ensures consistent, data-driven decision-making. HR teams can focus more on strategic tasks, like interviewing and onboarding, while the tool handles the initial filtering and analysis.",
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
@@ -31,9 +31,9 @@ export const projectData = [
     },
 
     {
-        title: "Scieco",
+        title: "Ecommerce Website",
         description:
-            "S complete redesign and development of the Leaders Network Limited website for an IT company. Built with Next.js, the new site features a modern, responsive design with optimized performance and user experience. From concept to deployment, the project showcases expertise in crafting professional websites tailored to client needs, highlighting the company's services, portfolio, and values effectively.",
+            "An eCommerce site built with Next.js and Tailwind CSS, featuring seamless product browsing, localhost testing, and secure payment processing via Paystack integration for a smooth shopping experience.",
         technologies: ["Next.js", "TailwindCSS", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://ecommerce-store-w3b.vercel.app/",
         caseStudy: "#",
