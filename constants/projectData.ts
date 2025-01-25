@@ -6,7 +6,7 @@ export const projectData = [
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://social-bridge-w3b.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/social-bridge",
+        sourceCode: "https://github.com/rolandaayo/social-bridge/",
         image: "/assets/images/social-bridge.png",
     },
     {
@@ -16,8 +16,8 @@ export const projectData = [
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/foodie",
-        image: "/assets/images/foodie.png",
+        sourceCode: "https://github.com/rolandaayo/ai-resume-checker/",
+        image: "/assets/images/ai-resume-checker.png",
     },
     {
         title: "Car Rental",
@@ -31,14 +31,14 @@ export const projectData = [
     },
 
     {
-        title: "Leaders Network Limited",
+        title: "Scieco",
         description:
-            "A complete redesign and development of the Leaders Network Limited website for an IT company. Built with Next.js, the new site features a modern, responsive design with optimized performance and user experience. From concept to deployment, the project showcases expertise in crafting professional websites tailored to client needs, highlighting the company's services, portfolio, and values effectively.",
+            "S complete redesign and development of the Leaders Network Limited website for an IT company. Built with Next.js, the new site features a modern, responsive design with optimized performance and user experience. From concept to deployment, the project showcases expertise in crafting professional websites tailored to client needs, highlighting the company's services, portfolio, and values effectively.",
         technologies: ["Next.js", "TailwindCSS", "Javascript", "Express.js", "MongoDb"],
-        livePreview: "https://eleadersnetwork.com/",
+        livePreview: "https://ecommerce-store-w3b.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/leaders-network-web",
-        image: "/assets/images/eleadersnetwork.png",
+        sourceCode: "https://github.com/rolandaayo/ecommerce-store",
+        image: "/assets/images/ecommerce.png",
     },
 
 ];
