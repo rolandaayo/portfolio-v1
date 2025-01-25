@@ -1,13 +1,13 @@
 export const projectData = [
     {
-        title: "Clothing Store",
+        title: "Social Bridge",
         description:
-            "A sleek and responsive clothing store built with Next.js and styled with Tailwind CSS. This app offers a seamless shopping experience, allowing users to browse, add items to their cart, and securely checkout using Paystack integration. Designed to highlight functionality and performance, this project showcases expertise in eCommerce development with a modern tech stack. ",
+            "Social-Bridge is an innovative social media distribution platform designed to simplify content management. It allows users to post, schedule, and queue content seamlessly across multiple social media platforms from one centralized dashboard. With intuitive features and an easy-to-navigate interface, Social-Bridge empowers creators, businesses, and marketers to save time, maintain consistent posting schedules, and maximize their social media presence effortlessly. 🚀 ",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://ecommerce-w3b.vercel.app/",
         caseStudy: "#",
         sourceCode: "https://github.com/rolandaayo/ecommerce-store",
-        image: "/assets/images/ecommerce.png",
+        image: "/assets/images/social-bridge.png",
     },
     {
         title: "Foodie",
