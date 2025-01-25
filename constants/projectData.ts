@@ -4,13 +4,13 @@ export const projectData = [
         description:
             "Social-Bridge is an innovative social media distribution platform designed to simplify content management. It allows users to post, schedule, and queue content seamlessly across multiple social media platforms from one centralized dashboard. With intuitive features and an easy-to-navigate interface, Social-Bridge empowers creators, businesses, and marketers to save time, maintain consistent posting schedules, and maximize their social media presence effortlessly. 🚀 ",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
-        livePreview: "https://ecommerce-w3b.vercel.app/",
+        livePreview: "https://social-bridge-w3b.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/ecommerce-store",
+        sourceCode: "https://github.com/rolandaayo/social-bridge",
         image: "/assets/images/social-bridge.png",
     },
     {
-        title: "Foodie",
+        title: "Ai Resume Checker",
         description:
             "Foodie is a modern and responsive food ordering app built with Next.js and styled with Tailwind CSS. The app allows users to explore a variety of meals, add items to their cart, and securely complete their orders using Paystack integration. Designed for performance and user experience, Foodie demonstrates expertise in building functional eCommerce solutions for the food industry.",
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
