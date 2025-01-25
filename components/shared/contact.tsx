@@ -1,40 +1,26 @@
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconBrandLinkedin,
-  IconBrandGmail,
-
-} from "@tabler/icons-react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Contact() {
   const contactlinks = [
     {
       title: "Linkedin",
-      icon: (
-        <IconBrandLinkedin className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
-      ),
+      icon: "/assets/images/assets/linkedin.avif",
       href: "https://www.linkedin.com/in/roland-ibiwoye/",
     },
     {
-      title: "GitHub",
-      icon: (
-        <IconBrandGithub className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
-      ),
+      title: "Instagram",
+      icon: "/assets/images/assets/instagram.avif",
       href: "https://github.com/rolandaayo",
     },
     {
-      title: "E-mail",
-      icon: (
-        <IconBrandGmail className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
-      ),
-      href: "mmailto:ibiwoyeroland@gmail.com",
+      title: "Thread",
+      icon: "/assets/images/assets/thread.avif",
+      href: "mailto:ibiwoyeroland@gmail.com",
     },
     {
       title: "Twitter",
-      icon: (
-        <IconBrandX className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
-      ),
+      icon: "/assets/images/assets/x.avif",
       href: "https://x.com/rolandaayo",
     }
   ];
@@ -46,7 +32,7 @@ function Contact() {
         <div className="mb-4 sm:mb-0">
           <span className="text-gray-500 text-sm">Reach out to me <span aria-hidden="true">→</span></span> <br />
           <Link href="mailto:ibiwoyeroland@gmail.com">
-            <span className="text-xl hover:underline">ibiwoyeroland@gmail.com</span>
+            <span className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 hover:text-pink-500 tracking-wide font-sans">ibiwoyeroland@gmail.com</span>
           </Link>
         </div>
 
@@ -61,7 +47,13 @@ function Contact() {
               className="h-12 w-12 flex items-center justify-center rounded-full border border-gray-300 dark:border-neutral-300 hover:shadow-md"
               aria-label={link.title}
             >
-              {link.icon}
+              <Image
+                src={link.icon}
+                alt={link.title}
+                width={24}
+                height={24}
+                className="text-gray-600 dark:text-neutral-300 hover:text-black"
+              />
             </Link>
           ))}
         </div>
@@ -70,7 +62,7 @@ function Contact() {
       <footer className="mt-10 text-center">
         <hr />
         <br />
-        <span className="font-light text-sm text-gray-600">Copyright  2024 - Roland Ibiwoye.</span>
+        <span className="font-light text-sm text-gray-600">Copyright  2025 - Roland Ibiwoye Ayotomiwa.</span>
 
       </footer>
     </div>

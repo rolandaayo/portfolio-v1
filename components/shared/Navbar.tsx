@@ -6,49 +6,43 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="flex justify-center py-6 bg-black text-white items-center w-full fixed top-0 z-50">
-      <nav className="w-full max-w-6xl px-4">
-        <div className="md:hidden flex justify-end">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none"
-          >
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              {isOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
+    <>
+      <style jsx>{`
+        @keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+        .blinking-dot {
+          animation: blink 1s infinite;
+        }
+      `}</style>
+
+      <div className="flex justify-center w-full py-4 md:py-6 fixed top-0 z-50 bg-black/80 backdrop-blur-md px-2 md:px-4">
+        <div className="border border-neutral-800 rounded-full px-10 md:px-6 py-2 md:py-3 bg-black/50 w-full max-w-xl md:max-w-2xl">
+          <nav className="flex items-center justify-between md:justify-center gap-2 md:gap-8">
+            <Link href="#projects" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
+              Projects
+            </Link>
+            <Link href="#resume" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
+              Resume
+            </Link>
+            <Link href="#contact" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
+              Contact
+            </Link>
+            <Link 
+              href="#lets-work" 
+              className="text-xs md:text-sm bg-white text-black px-2 md:px-4 py-1 md:py-1.5 rounded-full hover:bg-neutral-200 transition-colors flex items-center gap-1 md:gap-2"
+            >
+              <span className="relative flex h-1.5 md:h-2 w-1.5 md:w-2">
+                <span className="blinking-dot absolute inline-flex h-full w-full rounded-full bg-green-500"></span>
+                <span className="relative inline-flex rounded-full h-full w-full bg-green-500/30"></span>
+              </span>
+              <span className="whitespace-nowrap">Let's Work</span>
+            </Link>
+          </nav>
         </div>
-
-        <ul className={`${isOpen ? 'translate-x-0' : 'translate-x-full'} md:translate-x-0 fixed md:relative top-0 right-0 h-screen md:h-auto w-64 md:w-auto bg-black md:bg-transparent flex flex-col md:flex-row items-center justify-start pt-20 md:pt-0 md:justify-center space-y-4 md:space-y-0 md:space-x-8 mt-4 md:mt-0 transition-transform duration-300 ease-in-out`}>
-          <button
-            onClick={() => setIsOpen(false)}
-            className="absolute top-4 right-4 text-white md:hidden focus:outline-none"
-          >
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-          <Link href="/projects"><li className="hover:text-gray-600 cursor-pointer">Projects</li></Link>
-          <Link href="/about"><li className="hover:text-gray-600 cursor-pointer">About</li></Link>
-          <Link href="/resume"><li className="hover:text-gray-600 cursor-pointer">Resume</li></Link>
-          <Link href="/contact"><li className="hover:text-gray-600 cursor-pointer">Contact</li></Link>
-          <li>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <Link href="mailto:somkeneoj@gmail.com">
-                <button className="font-semibold text-sm font-sans bg-black text-white px-4 py-2 rounded hover:bg-gray-900 focus:outline-none">
-                  <span className="blinking-dot inline-block bg-green-500 rounded-full w-2 h-2 mr-2"></span>
-                  Let's Work!
-                </button>
-              </Link>
-            </div>
-          </li>
-        </ul>
-
-      </nav>
-    </div>
+      </div>
+    </>
   )
 }
