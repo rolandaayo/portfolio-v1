@@ -35,7 +35,7 @@ export const projectData = [
         description:
             "An eCommerce site built with Next.js and Tailwind CSS, featuring product browsing and secure payment processing via Paystack integration for a smooth shopping experience.",
         technologies: ["Next.js", "TailwindCSS", "Javascript", "Express.js", "MongoDb"],
-        livePreview: "https://ecommerce-store-w3b.vercel.app/",
+        livePreview: "https://ecommerce-w3b.vercel.app/",
         caseStudy: "#",
         sourceCode: "https://github.com/rolandaayo/ecommerce-store",
         image: "/assets/images/ecommerce.png",
