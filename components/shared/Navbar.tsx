@@ -31,7 +31,7 @@ export default function Navbar() {
               Contact
             </Link>
             <Link 
-              href="#lets-work" 
+              href="https://wa.me/2348122447364?text=Hello%20there!%20I%27m%20interested%20in%20your%20services." target="_blank#lets-work" 
               className="text-xs md:text-sm bg-white text-black px-2 md:px-4 py-1 md:py-1.5 rounded-full hover:bg-neutral-200 transition-colors flex items-center gap-1 md:gap-2"
             >
               <span className="relative flex h-1.5 md:h-2 w-1.5 md:w-2">
