@@ -21,8 +21,8 @@ export default function Navbar() {
       <div className="flex justify-center w-full py-4 md:py-6 fixed top-0 z-50 bg-black/80 backdrop-blur-md px-2 md:px-4">
         <div className="border border-neutral-800 rounded-full px-10 md:px-6 py-2 md:py-3 bg-black/50 w-full max-w-xl md:max-w-2xl">
           <nav className="flex items-center justify-between md:justify-center gap-2 md:gap-8">
-            <Link href="#projects" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
-              Projects
+            <Link href="/" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
+              Home
             </Link>
             <Link href="#resume" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
               Resume
