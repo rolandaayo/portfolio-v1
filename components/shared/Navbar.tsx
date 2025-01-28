@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="#resume" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
               Resume
             </Link>
-            <Link href="#contact" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
+            <Link href="/contact" className="text-xs md:text-sm text-neutral-400 hover:text-white transition-colors">
               Contact
             </Link>
             <Link 
