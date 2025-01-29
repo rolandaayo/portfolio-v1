@@ -1,8 +1,8 @@
 export const projectData = [
     {
-        title: "Social Bridge",
+        title: "Food Order",
         description:
-            "Social-Bridge is an innovative social media distribution platform designed to simplify content management. It allows users to post, schedule content🚀 ",
+            "Food Order is an innovative social media distribution platform designed to simplify content management. It allows users to post, schedule content🚀 ",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://social-bridge-w3b.vercel.app/",
         caseStudy: "#",
@@ -10,7 +10,7 @@ export const projectData = [
         image: "/assets/images/social-bridge.png",
     },
     {
-        title: "Ai Resume Checker",
+        title: " ",
         description:
             "AI Resume Checker is a tool that leverages artificial intelligence to help HR departments efficiently analyze and evaluate resumes.",
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
