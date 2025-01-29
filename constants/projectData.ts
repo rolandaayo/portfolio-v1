@@ -1,23 +1,23 @@
 export const projectData = [
     {
-        title: "Food Order",
+        title: "Foodie",
         description:
-            "Food Order is an innovative social media distribution platform designed to simplify content management. It allows users to post, schedule content🚀 ",
+            "   Foodie is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
-        livePreview: "https://social-bridge-w3b.vercel.app/",
-        caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/social-bridge/",
-        image: "/assets/images/social-bridge.png",
-    },
-    {
-        title: " Crud App",
-        description:
-            "Crud App is a tool that leverages artificial intelligence to help HR departments efficiently analyze and evaluate resumes.",
-        technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/ai-resume-checker/",
-        image: "/assets/images/ai-resume-checker.png",
+        sourceCode: "https://github.com/rolandaayo/foodie/",
+        image: "/assets/images/foodie.png",
+    },
+    {
+        title: "eleadersnetwork",
+        description:
+            "Eleaders Network Website is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
+        technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
+        livePreview: "https://eleadersnetwork.com/",
+        caseStudy: "#",
+        sourceCode: "https://github.com/rolandaayo/leaders-network-web/",
+        image: "/assets/images/eleadersnetwork.png",
     },
     {
         title: "Car Rental",
