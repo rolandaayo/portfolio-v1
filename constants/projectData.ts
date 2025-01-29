@@ -10,9 +10,9 @@ export const projectData = [
         image: "/assets/images/social-bridge.png",
     },
     {
-        title: " ",
+        title: " Crud App",
         description:
-            "AI Resume Checker is a tool that leverages artificial intelligence to help HR departments efficiently analyze and evaluate resumes.",
+            "Crud App is a tool that leverages artificial intelligence to help HR departments efficiently analyze and evaluate resumes.",
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
