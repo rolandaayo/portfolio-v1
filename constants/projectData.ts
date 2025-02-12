@@ -2,7 +2,7 @@ export const projectData = [
     {
         title: "Foodie",
         description:
-            "   Foodie is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
+            "   Foodie A modern and visually appealing web application designed for food enthusiasts. The project showcases an elegant UI featuring mouth-watering food items",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
@@ -10,7 +10,7 @@ export const projectData = [
         image: "/assets/images/foodie.png",
     },
     {
-        title: "eleadersnetwork",
+        title: "Leaders Network",
         description:
             "Eleaders Network Website is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
         technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
