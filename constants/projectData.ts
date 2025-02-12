@@ -12,8 +12,8 @@ export const projectData = [
     {
         title: "Leaders Network",
         description:
-            "Eleaders Network Website is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
-        technologies: ["Next.js","TailwindCSS", "Javascript", "Express.js", "MongoDb"],
+            "Redesigned and developed the E-Leaders Network website, delivering a modern, fast, and responsive user experience. aligning with the brand’s vision for a seamless digital presence.",
+        technologies: ["Next.js","TailwindCSS", "Javascript"],
         livePreview: "https://eleadersnetwork.com/",
         caseStudy: "#",
         sourceCode: "https://github.com/rolandaayo/leaders-network-web/",
@@ -22,7 +22,7 @@ export const projectData = [
     {
         title: "Car Rental",
         description:
-            "CarRent is a dynamic and user-friendly car rental application built with Next.js and styled with Tailwind CSS.",
+            "I built a modern and user-friendly car rental website, this platform features an intuitive booking system, seamless navigation, and ensuring a smooth user experience across all devices.",
         technologies: ["Next.js","TailwindCSS", "MongoDb", "Express.js", "Javascript"],
         livePreview: "https://car-rental-w3b.vercel.app/",
         caseStudy: "#",
