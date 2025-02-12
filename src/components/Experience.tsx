@@ -14,7 +14,7 @@ const experienceData: ExperienceItem[] = [
     title: "Fullstack Engineer",
     company: "Leaders Network",
     date: "Jan 2024 - Present",
-    description: "I Founded and led the development of the platform to address personal challenges I faced as a student at Aptech, now serving 70+ students. Key responsibilities included leading a team of 4, assigning tasks, conducting code reviews, and presenting the platform to students. This experience enhanced my collaborative and leadership skills as I oversaw the frontend and backend integrations of the platform.",
+    description: "● Revamped the company's website eleadersnetwork using Next.js & TailwindCSS, enhancing user engagement and contributing to a 15% increase in web traffic, ensuring cross-browser compatibility and optimal performance by writing clean, efficient, and modular code.\n● Actively participating in Agile development sprints, contributing to planning, stand-ups, and code reviews to ensure alignment with project goals and timelines.\n● Effectively collaborating with UI/UX designers and backend developers to design and implement interactive, responsive, and visually appealing user interfaces for the company's web applications.",
     technologies: ["NextJs", "Tailwind", "Typescript", "React", "Node.js", "Express.js", "React Native", "Git", "Mongodb", "Mongoose"],
     countryFlag: "🇳🇬"
   },
@@ -22,8 +22,8 @@ const experienceData: ExperienceItem[] = [
     title: "Frontend Developer",
     company: "NIIT",
     date: "April 2022 - April 2023",
-    description: "I design intuitive user interfaces to enhance the platform's functionality and user experience. I focus on building responsive, performance-optimized designs while ensuring accessibility standards are met. I collaborate closely with cross-functional teams to integrate features seamlessly and maintain a cohesive product vision. My work involves leveraging modern technologies to deliver scalable solutions, improving customer satisfaction and usability.",
-    technologies: ["NextJs", "Tailwind", "Typescript", "Jest", "Zustand", "Framer Motion", "Custom Css"],
+    description: "● Demonstrated proficiency in designing well-structured Frontend web applications, including the creation of a personal website - rolandayo.vercel.app, showcasing ability to effectively integrate front-end components for a cohesive user experience.\n● Collaborated with a team of developers to design and implement modern and responsive web applications, using tools like React JS, TailwindCSS & Javascript.\n● Investing in continuous self-development through online web development classes on Udemy, Scrimba and Coursera.",
+    technologies: ["HTML", "TailwindCSS", "CSS", "Jest", "Javascript", "Framer Motion", "SASS"],
     countryFlag: "🇳🇬"
   }
 ];
@@ -49,7 +49,7 @@ const Experience: FC = () => {
             <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-pink-500 to-yellow-300" />
             <div className="absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-pink-500 to-yellow-300" />
             <div className="py-3 md:py-4 my-3 md:my-4">
-              <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
+              <p className="text-gray-300 text-xs md:text-sm leading-relaxed whitespace-pre-line">
                 {item.description}
               </p>
             </div>
@@ -71,4 +71,4 @@ const Experience: FC = () => {
   );
 };
 
-export default Experience; 
+export default Experience;
