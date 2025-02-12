@@ -15,13 +15,13 @@ const experienceData: ExperienceItem[] = [
     company: "Leaders Network",
     date: "Jan 2024 - Present",
     description: "I Founded and led the development of the platform to address personal challenges I faced as a student at Aptech, now serving 70+ students. Key responsibilities included leading a team of 4, assigning tasks, conducting code reviews, and presenting the platform to students. This experience enhanced my collaborative and leadership skills as I oversaw the frontend and backend integrations of the platform.",
-    technologies: ["NextJs", "Tailwind", "Typescript", "Clerk", "Zustand", "Webhooks", "Sentry", "Git", "Mongodb", "Mongoose"],
+    technologies: ["NextJs", "Tailwind", "Typescript", "React", "Node.js", "Express.js", "React Native", "Git", "Mongodb", "Mongoose"],
     countryFlag: "🇳🇬"
   },
   {
     title: "Frontend Developer",
     company: "NIIT",
-    date: "April 2021 - Present",
+    date: "April 2022 - April 2023",
     description: "I design intuitive user interfaces to enhance the platform's functionality and user experience. I focus on building responsive, performance-optimized designs while ensuring accessibility standards are met. I collaborate closely with cross-functional teams to integrate features seamlessly and maintain a cohesive product vision. My work involves leveraging modern technologies to deliver scalable solutions, improving customer satisfaction and usability.",
     technologies: ["NextJs", "Tailwind", "Typescript", "Jest", "Zustand", "Framer Motion", "Custom Css"],
     countryFlag: "🇳🇬"
