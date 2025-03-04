@@ -4,7 +4,7 @@ export default function Skillz() {
   return (
     <div>
       <div className='opacity: 1; transform: none;'>
-        <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-5 sm:px-8 md:px-16 lg:px-40 pt-10 md:pt-20 pb-6 md:pb-9 font-medium text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-yellow-300'>I don't have dark secrets, only bright ones</h1>
+        <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-5 sm:px-8 md:px-16 lg:px-40 pt-10 md:pt-20 pb-6 md:pb-9 font-medium text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-yellow-300'>My Tech Stack 👨🏽‍💻</h1>
       </div>
 
       <div className='flex flex-col md:pt-10 pb-16 md:pb-28 lg:flex-row items-center justify-center gap-8

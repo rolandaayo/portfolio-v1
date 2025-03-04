@@ -25,25 +25,36 @@ export const Projects = () => {
                     {projectData.map((project, index) => (
                         <div
                             key={index}
-                            className="border border-gray-300 rounded-2xl bg-white sticky grid md:grid-cols-1 lg:grid-cols-2 gap-4 shadow-sm hover:shadow-md"
+                            className="border border-gray-300 rounded-2xl bg-[#171717] sticky grid md:grid-cols-1 lg:grid-cols-2 gap-4 shadow-sm hover:shadow-md"
                             style={{
                                 top: `calc(96px + ${index * 40}px)`,
                                 height: "auto",
                             }}
                         >
+                            {/* Image Section */}
+                            <div className="p-6 order-1 lg:order-2">
+                                <Image
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-auto object-cover rounded-2xl"
+                                    width={1200}
+                                    height={800}
+                                    priority
+                                />
+                            </div>
                             {/* Text Section */}
-                            <div className="p-6 flex flex-col justify-between order-2 lg:order-1">
+                            <div className="p-6 flex flex-col text-#9CA3AF justify-between order-2 lg:order-1">
                                 <div>
-                                    <h2 className="text-xl text-black font-bold mb-4">{project.title}</h2>
-                                    <p className="text-gray-700 mb-4 font-light">{project.description}</p>
+                                    <h2 className="text-xl text-#9CA3AF font-bold mb-4">{project.title}</h2>
+                                    <p className=" mb-4 font-light">{project.description}</p>
                                     <div className="flex gap-2 mb-4">
                                         {/* <Link href={project.caseStudy} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">
                                             Case Study -
                                         </Link> */}
-                                        <Link href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm mb-4  hover:underline">
+                                        <Link href={project.sourceCode} target="_blank" rel="noopener noreferrer" className=" text-sm mb-4  hover:underline">
                                             <div className="flex items-center space-x-1">
-                                                <GitHubLogoIcon className="h-4 w-4 text-indigo-950 dark:text-neutral-300" />
-                                                <span className="text-indigo-950 font-normal">Source Code ...</span>
+                                                <GitHubLogoIcon className="h-4 w-4  dark:text-neutral-300" />
+                                                <span className=" font-normal">Source Code ...</span>
                                             </div>
 
                                         </Link>
@@ -61,24 +72,15 @@ export const Projects = () => {
                                 </div>
                                 <Link
                                     href={project.livePreview}
-                                    className="inline-block mt-auto px-4 py-2 text-sm  text-white bg-black text-center rounded-xl hover:bg-gray-800"
+                                    className="inline-block mt-auto px-4 py-2  text-sm bg-black text-center rounded-xl hover:bg-gray-800"
                                     target="_blank" rel="noopener noreferrer"
                                 >
-                                    Live Preview
+                                    🌍 Live Preview
                                 </Link>
+                                
                             </div>
 
-                            {/* Image Section */}
-                            <div className="p-6 order-1 lg:order-2">
-                                <Image
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-auto object-cover rounded-2xl"
-                                    width={1200}
-                                    height={800}
-                                    priority
-                                />
-                            </div>
+                            
                         </div>
                     ))}
                 </div>

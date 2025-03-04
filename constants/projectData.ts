@@ -1,23 +1,23 @@
 export const projectData = [
     {
-        title: "Foodie",
+        title: "User Management System",
         description:
-            "   Foodie A modern and visually appealing web application designed for food enthusiasts. The project showcases an elegant UI featuring mouth-watering food items",
+            "   A full-stack user management system designed to efficiently manage users, roles, and data insights. Built with Next.js, Node.js, MongoDB, and Graphql",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
         livePreview: "https://foodie-w3b.vercel.app/",
         caseStudy: "#",
         sourceCode: "https://github.com/rolandaayo/foodie/",
-        image: "/assets/images/foodie.png",
+        image: "/assets/images/Dashboard.png",
     },
     {
-        title: "Leaders Network",
+        title: "HR CRM",
         description:
-            "Redesigned and developed the E-Leaders Network website, delivering a modern, fast, and responsive user experience. aligning with the brand’s vision for a seamless digital presence.",
+            "Hiring Manager CRM – A lightweight tool for recruiters to track candidates, save feedback, auto-rank resumes, and manage interviews—all from one dashboard.",
         technologies: ["Next.js","TailwindCSS", "Javascript"],
         livePreview: "https://eleadersnetwork.com/",
         caseStudy: "#",
         sourceCode: "https://github.com/rolandaayo/leaders-network-web/",
-        image: "/assets/images/eleadersnetwork.png",
+        image: "/assets/images/hr-crm.png",
     },
     {
         title: "Car Rental",
