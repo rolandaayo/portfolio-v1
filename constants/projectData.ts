@@ -1,24 +1,24 @@
 export const projectData = [
     {
-        title: "User Management System",
+        title: "House Listing Web App",
         description:
-            "   A full-stack user management system designed to efficiently manage users, roles, and data insights. Built with Next.js, Node.js, MongoDB, and Graphql",
+            "   A full-stack web application for listing and browsing houses, featuring a user-friendly interface, property details, and seamless navigation. Built for efficiency and ease of use.",
         technologies: ["Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
-        livePreview: "https://foodie-w3b.vercel.app/",
+        livePreview: "https://billy-khomes.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/foodie/",
-        image: "/assets/images/Dashboard.png",
+        sourceCode: "https://github.com/rolandaayo/billykhomes/",
+        image: "/assets/images/house-listing.png",
     },
-    {
-        title: "HR CRM",
-        description:
-            "Hiring Manager CRM – A lightweight tool for recruiters to track candidates, save feedback, auto-rank resumes, and manage interviews—all from one dashboard.",
-        technologies: ["Next.js","TailwindCSS", "Javascript"],
-        livePreview: "https://eleadersnetwork.com/",
-        caseStudy: "#",
-        sourceCode: "https://github.com/rolandaayo/leaders-network-web/",
-        image: "/assets/images/hr-crm.png",
-    },
+    // {
+    //     title: "HR CRM",
+    //     description:
+    //         "Hiring Manager CRM – A lightweight tool for recruiters to track candidates, save feedback, auto-rank resumes, and manage interviews—all from one dashboard.",
+    //     technologies: ["Next.js","TailwindCSS", "Javascript"],
+    //     livePreview: "/",
+    //     caseStudy: "#",
+    //     sourceCode: "https://github.com/rolandaayo/leaders-network-web/",
+    //     image: "/assets/images/hr-crm.png",
+    // },
     {
         title: "Car Rental",
         description:
