@@ -10,7 +10,7 @@ function HeroSection() {
         <div className="size-[1250px] hero-ring"></div>
         <div className="size-[1450px] hero-ring"></div>
 
-        <div className="text-center py-40 hero mb-32">
+        <div className="text-center py-40 hero">
           <section className="hero-status-container flex flex-col items-center">
             <span className="hero-status-bitmoji"><img className="w-20 h-20 hover:scale-105 transition-all duration-300"
               src="https://framerusercontent.com/images/DGJ4Gx0ogbA7MZuCQVUb98IKt1I.png?scale-down-to=512" />
@@ -24,7 +24,7 @@ function HeroSection() {
 
           <section className="mx-10">
             <h1 className="text-pink-200  text-5xl md:text-6xl lg:text-7xl mt-9 tracking-tight hero-header">
-              Ojukwu Somkene <br /><span className="text-pink-50">Ifechukwu</span></h1>
+              Roland Ibiwoye <br /><span className="text-pink-50">Ayotomiwa</span></h1>
 
             {/* LARGE SCREEN */}
             <p className="text-gray-400 mt-6 tracking-wide mx-auto max-w-lg hidden md:block">

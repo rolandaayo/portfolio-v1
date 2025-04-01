@@ -18,9 +18,9 @@ function Contact() {
       <div className="flex flex-col sm:flex-row justify-between items-center border-2 border-neutral-800 bg-neutral-900 md:max-w-4xl mx-auto lg:max-w-6xl rounded-3xl p-8 hover:bg-gradient-to-bl hover:via-transparent hover:from-black hover:to-black transition-all duration-300">
         <div className="mb-4 sm:mb-0">
           <span className="text-neutral-300 text-xs tracking-wide font-medium">Reach out to me <span aria-hidden="true">→</span></span> <br />
-          <Link href="mailto:somkeneoj@gmail.com">
+          <Link href="mailto:ibiwoyeroland@gmail.com">
             <span className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 hover:text-pink-500 tracking-wide font-sans">
-              somkeneoj@gmail.com
+              ibiwoyeroland@gmail.com
             </span>
           </Link>
         </div>
