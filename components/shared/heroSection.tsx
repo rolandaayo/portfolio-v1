@@ -1,42 +1,53 @@
 import { FloatingDockDemo } from "./Dock"
 import SlideIn from "./SlideIn"
-import Image from "next/image"
 
 function HeroSection() {
   return (
     <SlideIn direction="top">
-      <div className="xl:px-36 bg-black sm:start text-white sm:px-32">
-        <div className="relative isolate px-6 lg:px-8">
+      <div className="overflow-x-clip relative cursor-pointer">
+        <div className="size-[850px] hero-ring"></div>
+        <div className="size-[1050px] hero-ring"></div>
+        <div className="size-[1250px] hero-ring"></div>
+        <div className="size-[1450px] hero-ring"></div>
 
-          <div className="mx-auto max-w-2xl lg:py-36 py-28 sm:py-48">
-            <div className="text-center">
-              <Image src="/assets/images/hero.avif" alt="Profile Image" width={96} height={96} className="w-24 h-24 rounded-full mx-auto mb-4" />
-              <button className="font-semibold text-sm pb-10 font-sans bg-black text-white px-4 py-2 rounded hover:bg-gray-900 focus:outline-none">
-                  <span className="blinking-dot inline-block bg-pink-500 rounded-full w-2 h-2 mr-2"></span>
-                  Available for new projects!
-                </button>
-              <h1 className="text-4xl font-extrabold tracking-tight text-pink-200 sm:text-6xl">
-                Roland <span className="text-pink-200">Ibiwoye</span> <span className="text-white">Ayotomiwa</span>
-              </h1>
-              <p className="mt-6 text-lg  font-light leading-8 ">
-                <span className="text-gray-500 ">I am a </span><span className="text-white font-bold">Full-Stack developer</span>  <span className="text-gray-500 ">based in</span> <span className="font-extrabold bg-gradient-to-r from-green-500 via-white to-green-500 bg-clip-text text-transparent">Lagos, Nigeria</span>, passionate about creating web applications that are both functional and visually appealing.
-              </p>
-              <div className="flex items-center justify-center gap-x-6">
-                <FloatingDockDemo />
-              </div>
+        <div className="text-center py-40 hero mb-32">
+          <section className="hero-status-container flex flex-col items-center">
+            <span className="hero-status-bitmoji"><img className="w-20 h-20 hover:scale-105 transition-all duration-300"
+              src="https://framerusercontent.com/images/DGJ4Gx0ogbA7MZuCQVUb98IKt1I.png?scale-down-to=512" />
+            </span>
+            <div className="text-pink-50 bg-black w-fit hero-status-info px-4 py-2 text-xs rounded tracking-wide font-light">
+              <span className="animate-pulse-ring inline-block bg-pink-400 rounded-full w-2 h-2 mr-2"></span>
+              {" "} Available for new projects
             </div>
-          </div>
-          <div
-            aria-hidden="true"
-            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-          >
+          </section>
 
-          </div>
+
+          <section className="mx-10">
+            <h1 className="text-pink-200  text-5xl md:text-6xl lg:text-7xl mt-9 tracking-tight hero-header">
+              Ojukwu Somkene <br /><span className="text-pink-50">Ifechukwu</span></h1>
+
+            {/* LARGE SCREEN */}
+            <p className="text-gray-400 mt-6 tracking-wide mx-auto max-w-lg hidden md:block">
+              I'm a <span className="text-gray-200 font-semibold">Full-Stack developer</span> based in <span className="font-bold bg-gradient-to-r from-green-500 via-white to-green-500 bg-clip-text text-transparent">
+                Lagos, Nigeria,</span> specializing in using my creativity to design <span className="text-gray-200 font-semibold">aesthetically pleasing </span>
+              UIs and build <span className="text-gray-200 font-semibold">scalable applications </span>that perform efficiently
+            </p>
+
+            {/* ON MOBILE DEVICES */}
+            <p className="text-gray-400 mt-6 tracking-wide mx-auto max-w-lg block md:hidden hero-subtext-mobile">
+              <span className="text-gray-200 font-semibold">Full-Stack developer</span> based in <span className="font-bold bg-gradient-to-r from-green-500 via-white to-green-500 bg-clip-text text-transparent">
+                Lagos, Nigeria,</span> who builds<span className="text-gray-200 font-semibold"> aesthetically pleasing </span>
+              UI's and  <span className="text-gray-200 font-semibold">scalable applications</span>
+            </p>
+          </section>
+          <section className="hidden md:block">
+            <FloatingDockDemo />
+          </section>
         </div>
-
       </div>
     </SlideIn>
 
   )
 }
+
 export default HeroSection

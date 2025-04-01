@@ -1,15 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({ 
-  weight: ['400', '500', '600', '700'],
-  subsets: ["latin"] 
-});
-
 export const metadata: Metadata = {
-  title: "Roland Ibiwoye - Porfolio",
-  description: "Roland Ibiwoye's portfolio",
+  title: "Ojukwu Somkene",
+  description: "Ojukwu Somkene's portfolio",
 };
 
 export default function RootLayout({
@@ -19,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className="bg-neutral-950">{children}</body>
     </html>
   );
 }

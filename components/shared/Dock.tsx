@@ -8,37 +8,33 @@ export function FloatingDockDemo() {
         {
             title: "Linkedin",
             icon: (
-                <LinkedInLogoIcon className="h-full w-full text-[#38BDF9] dark:text-neutral-300" />
+                <LinkedInLogoIcon className="h-full w-full text-sky-400 dark:text-neutral-300" />
             ),
-            href: "https://www.linkedin.com/in/roland-ibiwoye/",
+            href: "https://www.linkedin.com/in/somkene-ojukwu/",
         },
         {
             title: "Twitter",
             icon: (
-                <TwitterLogoIcon className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+                <TwitterLogoIcon className="h-full w-full text-orange-300 dark:text-neutral-300" />
             ),
-            href: "https://x.com/theayotomiwa",
+            href: "https://x.com/somkeneOj",
         },
         {
             title: "GitHub",
             icon: (
-                <GitHubLogoIcon className="h-full w-full text-purple-950 dark:text-neutral-300" />
+                <GitHubLogoIcon className="h-full w-full text-purple-400 dark:text-neutral-300" />
             ),
-            href: "https://github.com/rolandaayo",
+            href: "https://github.com/somkenemuscle",
         },
 
     ];
 
 
     return (
-        <div id="projects" className="flex items-center justify-center mt-14 w-full">
+        <div id="projects" className="flex items-center justify-center mt-6 w-full">
             <FloatingDock
                 items={contactlinks}
             />
         </div>
     );
 }
-
-
-
-

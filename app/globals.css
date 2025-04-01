@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  .hero-ring {
+    @apply absolute inset-0 border-2 left-1/2 -translate-y-1/2 rounded-full border-neutral-950/5 shadow-[0_0_30px_inset] shadow-pink-400/5;
+  }
+}
+
+
 /* Define the keyframes for the blinking effect */
 @keyframes blink {
 
@@ -15,13 +23,98 @@
   }
 }
 
+
 html {
   scroll-behavior: smooth;
-  
 }
 
-/* Apply the animation to the blinking-dot class */
-.blinking-dot {
-  animation: blink 0.7s infinite;
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  70% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
 }
 
+.navbar {
+  font-family: sans-serif;
+  box-shadow: 0 0 10px 1px rgba(56, 55, 53, 0.2);
+  border: 2px solid rgb(37, 35, 34);
+}
+
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.1s infinite;
+}
+
+.hero {
+  font-family: sans-serif;
+}
+
+.hero-header {
+  font-weight: 600;
+}
+
+.card-container {
+  font-family: sans-serif;
+}
+
+.experience-container p {
+  font-family: sans-serif;
+}
+
+.experience-card:hover {
+  background-color: rgb(15, 15, 15);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+/* MEDIA QUERY STYLINGS */
+@media (max-width: 388px) {
+  .nav-mobile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}
+
+@media (max-width: 463px) {
+  .hero-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5rem;
+  }
+
+  .hero-status-info {
+    margin-top: 10px;
+    border: 1px solid rgb(40, 39, 39);
+  }
+
+  .hero-header {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .hero-subtext-mobile {
+    text-align: left;
+  }
+
+  .project-header {
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+}
